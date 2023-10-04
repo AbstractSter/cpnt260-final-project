@@ -6,4 +6,5 @@ Three-Page Website
 ### GitHub Pages
 
 ### Attributions
+- Main content used from CPNT260-a3
 - Gallery Code from dailiesf23

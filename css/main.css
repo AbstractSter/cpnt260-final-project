@@ -6,6 +6,37 @@ body {
   min-height: 100vh;
 }
 
+header {
+  /* Hero Section Image */
+background-image: url("https://fastly.picsum.photos/id/141/2048/1365.jpg?hmac=xcZmN-VINP95YwmI3AXCTIxfzd61fhaczQmodKQjLbY");;
+background-repeat: no-repeat;
+background-position: center;
+
+height: 90vh;
+width: 100%;
+
+text-align: center;
+flex-direction: column;
+}
+
+h2 {
+  /* Hero Section Heading */
+  font-family: 'Inclusive Sans', sans-serif;
+  font-size: 40px;
+  color: white;
+  
+  padding: 100px;
+  margin: 0;
+}
+
+h4 {
+  /* Hero Section Subheading */
+  font-family: 'Inclusive Sans', sans-serif;
+  font-size: 20px;
+  color: rgb(226, 223, 223);
+}
+
+
 main {
   /* Page Main Content */
   flex: auto;
