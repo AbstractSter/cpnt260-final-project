@@ -1,8 +1,7 @@
 body {
   /* Full Page Layout */
   font-family: 'Inclusive Sans', sans-serif;
-  
-  display: flex;
+  margin: 0;
   flex-direction: column;
   min-height: 100vh;
 }
