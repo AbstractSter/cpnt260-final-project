@@ -1,54 +1,45 @@
-.nav-title {
-  /* Nav Bar Title */
-  font-family: 'Merriweather', serif;
-  font-size: 60px;
+body {
+  /* Full Page Layout */
+  font-family: 'Inclusive Sans', sans-serif;
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  /* Page Main Content */
+  flex: auto;
+  margin: 3vh;
+}
+
+p {
+  /* Paragraph Content */
+  min-width: 40ch;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+  /* Page Break */
+  ul {
+    text-align: left;
+    flex-direction: column;
+  }
+}
+
+footer {
+  /* Sticky Footer */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Inclusive Sans', sans-serif;
+  background-color: #d9792b;
   padding: 1rem;
 }
 
-nav {
-  /* Nav Flex Container */
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  
-  width: 100%;
-  
-  background-color: #1f4865;
-  color: #d9792b;
-}
-
-nav .nav-bar-menu-buttons {
-  /* Nav Bar Menu Flexbox */
-  display: flex;
-  justify-content: flex-end;
-
-  list-style: none;
-  padding-right: 1rem;
-}
-
-
-.nav-bar-menu-buttons li {
-  /* Main Nav Bar */
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1px solid #f7b684;
-}
-
-.nav-bar-menu-buttons a {
-  /* Nav Bar Buttons */
+footer p {
+  /* Copyright */
   text-align: center;
-  color: #f7b684;
-  text-decoration: none;
-}
-
-nav li:hover {
-  /* Nav Bar Hover Effect */
-  background-color: #d76100;
-  transition: 0.5s;
-}
-
-.active {
-  /* Active Page Status */
-  background-color: #848383;
-  border-radius: .5rem;
+  padding: 5px;
 }
