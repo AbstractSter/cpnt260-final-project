@@ -25,7 +25,7 @@ h2 {
   font-size: 40px;
   color: white;
   
-  padding: 100px;
+  padding: 50px;
   margin: 0;
 }
 
@@ -34,14 +34,11 @@ h4 {
   font-family: 'Inclusive Sans', sans-serif;
   font-size: 20px;
   color: rgb(226, 223, 223);
+
+  padding: 25px;
+  margin: 0;
 }
 
-
-main {
-  /* Page Main Content */
-  flex: auto;
-  margin: 3vh;
-}
 
 p {
   /* Paragraph Content */
