@@ -7,4 +7,4 @@ Three-Page Website
 
 ### Attributions
 - Main content used from CPNT260-a3
-- Gallery Code from dailiesf23
+- Help from classmates: Chad Cervantez, Ashkie Esperanza, Kevin Fula, John Dagsa, Sydney Bruce, Nicole Shukin, Edward Mah
