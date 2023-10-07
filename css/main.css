@@ -19,10 +19,12 @@ header {
   flex-direction: column;
 }
 
-main {
+main, form {
   /* margin: auto; */
   padding: 10px;
+  min-width: 30ch;
 }
+
 
 h2 {
   /* Hero Section Heading */
@@ -48,8 +50,6 @@ button {
   /* padding: 25px; */
   margin: 5px;
 }
-
-
 
 p {
   /* Paragraph Content */

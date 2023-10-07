@@ -63,5 +63,6 @@ a, a:hover {
 }
 
 a:hover {
+  /* Nav Bar Title Hover Effect */
   color: #848383;
 }

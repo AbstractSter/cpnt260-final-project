@@ -23,7 +23,21 @@
         <div class="main-page-hero-section"></div>
         <h2>Welcome to The Smith Contemporary Art Gallery</h2>
         <h4>Click below to subscribe to our mailing list and be the first to know about upcoming exhibitions, artist talks and night markets</h4>
-        <button type="button" onclick="alert('Thank you for subscribing!')">Subscribe to the newsletter</button>
+        <form
+  action="https://formspree.io/f/xzblkqla"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    What interests you about The SCAG?:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
       </section>
     </header>
   <main>
