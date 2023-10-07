@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.nav-title:visited {
+  text-decoration: none;
+}
+
 nav {
   /* Nav Flex Container */
   display: flex;
