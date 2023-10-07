@@ -58,7 +58,10 @@ nav li:hover {
 a, a:hover {
   /* Nav Bar Title */
   color: #d9792b;
-  color: #848383;
 
   text-decoration: none;
+}
+
+a:hover {
+  color: #848383;
 }
