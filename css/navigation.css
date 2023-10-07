@@ -3,11 +3,8 @@
   font-family: 'Merriweather', serif;
   font-size: 60px;
   padding: 1rem;
-  text-decoration: none;
-}
-
-.nav-title:visited {
-  text-decoration: none;
+  color: #d9792b;
+  /* color: inherit; */
 }
 
 nav {
@@ -56,4 +53,12 @@ nav li:hover {
   /* Active Page Status */
   background-color: #848383;
   border-radius: .5rem;
+}
+
+a, a:hover {
+  /* Nav Bar Title */
+  color: #d9792b;
+  color: #848383;
+
+  text-decoration: none;
 }

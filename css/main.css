@@ -8,15 +8,15 @@ body {
 
 header {
   /* Hero Section Image */
-background-image: url("https://fastly.picsum.photos/id/141/2048/1365.jpg?hmac=xcZmN-VINP95YwmI3AXCTIxfzd61fhaczQmodKQjLbY");
-background-repeat: no-repeat;
-background-position: center;
-
-height: 90vh;
-width: 100%;
-
-text-align: center;
-flex-direction: column;
+  background-image: url("https://fastly.picsum.photos/id/141/2048/1365.jpg?hmac=xcZmN-VINP95YwmI3AXCTIxfzd61fhaczQmodKQjLbY");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  height: 90vh;
+  width: 100%;
+  
+  text-align: center;
+  flex-direction: column;
 }
 
 h2 {
@@ -34,7 +34,7 @@ h4 {
   font-family: 'Inclusive Sans', sans-serif;
   font-size: 20px;
   color: rgb(226, 223, 223);
-
+  
   padding: 10px;
   margin: 0;
 }
@@ -44,11 +44,14 @@ button {
   margin: 5px;
 }
 
+
+
 p {
   /* Paragraph Content */
   min-width: 40ch;
   line-height: 1.5;
 }
+
 
 @media screen and (max-width: 600px) {
   /* Page Break */

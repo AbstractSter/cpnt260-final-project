@@ -7,4 +7,6 @@ Three-Page Website
 
 ### Attributions
 - Main content used from CPNT260-a3
+- [w3 Schools](https://www.w3schools.com/tags/tag_button.asp) - Code for button and "click action"
+- [Stack Overflow](https://stackoverflow.com/questions/7291873/disable-color-change-of-anchor-tag-when-visited)
 - Help from classmates: Chad Cervantez, Ashkie Esperanza, Kevin Fula, John Dagsa, Sydney Bruce, Nicole Shukin, Edward Mah
