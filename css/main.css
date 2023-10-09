@@ -26,8 +26,14 @@ main, form {
   text-align: center;
 
   padding: 10px;
-  min-width: 30ch;
+  min-width: 20ch;
   max-width: 100ch;
+}
+
+h1, h3 {
+  /* Subheadings on content pages */
+  padding: 40px;
+  margin: 0;
 }
 
 h2 {
