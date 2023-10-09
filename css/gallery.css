@@ -1,7 +1,27 @@
-.image-container {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
+.cta {
+  margin-top: 2rem;
+  max-width: 10ch;
+  
+  padding: 2rem;
+  border-radius: 1rem;
+}
 
-  border-radius: 2rem;
+.cta a {
+  margin: auto;
+  padding: 1.5rem 1.5rem;
+  display: block;
+  width: fit-content;
+  
+  font-family: 'Inclusive Sans', sans-serif;
+  text-decoration: none;
+
+  background-color: white;
+  color: hsl(50, 60%, 2%);
+  border: solid;
+  border-radius: 1.5rem;
+}
+
+img {
+  width: 50vh;
+  border-radius: 1rem;
 }
