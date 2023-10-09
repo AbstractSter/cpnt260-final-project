@@ -21,7 +21,7 @@ header {
   flex-direction: column;
 }
 
-main, form, p {
+main, p {
   /* Main content margins */
   text-align: center;
   justify-content: center;
@@ -29,6 +29,12 @@ main, form, p {
   margin: 1rem;
   min-width: 20ch;
   max-width: 100ch;
+}
+
+form {
+  /* Form text */
+  text-align: center;
+  color: white;
 }
 
 h1, h3 {
