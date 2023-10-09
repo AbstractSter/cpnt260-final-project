@@ -23,8 +23,11 @@ header {
 
 main, form {
   /* margin: auto; */
+  text-align: center;
+
   padding: 10px;
   min-width: 30ch;
+  max-width: 100ch;
 }
 
 h2 {
