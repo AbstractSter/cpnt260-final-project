@@ -22,11 +22,9 @@
   border-radius: 1.5rem;
 }
 
-img.grid-container {
+grid-container {
   /* Current Displays main images */
-  /* width: 50vh;
-  padding: 2rem;
-  max-width: 900px; */
+display: grid;
 }
 
 .image-container {
