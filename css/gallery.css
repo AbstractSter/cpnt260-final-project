@@ -1,41 +1,26 @@
-/* Gallery image borders */
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-/* Gallery image hover */
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-/* Individual images */
-div.gallery img {
-  width: 100%;
-  height: auto;
-  grid-template-columns: 4;
-}
-
-/* Gallery display */
-div.main-gallery {
+/* Main Gallery */
+.gallery-grid {
   display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 1.5rem;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+/* Image Cards */
+.gallery-image {
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: white;
+  margin: 0;
 }
 
-* {
-  box-sizing: border-box;
+/* Image card hover effect */
+.gallery-image:hover {
+  background-color: #d9792b;
 }
 
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 25%;
-  display: grid;
-}
-
+/* Screen responsiveness */
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 50%;
@@ -47,10 +32,4 @@ div.desc {
   .responsive {
     width: 100%;
   }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
