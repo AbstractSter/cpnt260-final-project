@@ -1,14 +1,13 @@
+/* Nav Bar Title */
 .nav-title {
-  /* Nav Bar Title */
   font-family: 'Merriweather', serif;
   font-size: 60px;
   padding: 1rem;
   color: #d9792b;
-  /* color: inherit; */
 }
 
+/* Nav Flex Container */
 nav {
-  /* Nav Flex Container */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -19,8 +18,8 @@ nav {
   color: #d9792b;
 }
 
+/* Nav Bar Menu Flexbox */
 nav .nav-bar-menu-buttons {
-  /* Nav Bar Menu Flexbox */
   display: flex;
   justify-content: flex-end;
 
@@ -29,40 +28,40 @@ nav .nav-bar-menu-buttons {
 }
 
 
+/* Main Nav Bar */
 .nav-bar-menu-buttons li {
-  /* Main Nav Bar */
   padding: 1rem;
   border-radius: .5rem;
   border: 1px solid #f7b684;
 }
 
+/* Nav Bar Buttons */
 .nav-bar-menu-buttons a {
-  /* Nav Bar Buttons */
   text-align: center;
   color: #f7b684;
   text-decoration: none;
 }
 
+/* Nav Bar Hover Effect */
 nav li:hover {
-  /* Nav Bar Hover Effect */
   background-color: #d76100;
   transition: 0.5s;
 }
 
+/* Active Page Status */
 .active {
-  /* Active Page Status */
-  background-color: #848383;
+  background-color: #5a5959;
   border-radius: .5rem;
 }
 
+/* Nav Bar Title */
 a, a:hover {
-  /* Nav Bar Title */
   color: #d9792b;
 
   text-decoration: none;
 }
 
+/* Nav Bar Title Hover Effect */
 a:hover {
-  /* Nav Bar Title Hover Effect */
   color: #bfbdbb;
 }

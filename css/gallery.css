@@ -9,10 +9,11 @@
 
 /* Image Cards */
 .gallery-image {
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   padding: 2rem;
   background-color: white;
   border: solid;
+  border-color: #1f4865;
   margin: 0;
 }
 
@@ -26,7 +27,6 @@ img {
   width: 100%;
   display: block;
   object-fit: contain;
-  border-radius: 1rem;
 }
 
 /* Image card text */
