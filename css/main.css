@@ -20,7 +20,7 @@ header {
   flex-direction: column;
 }
 
-main, p {
+main {
   /* Main content margins */
   text-align: center;
   justify-content: center;
@@ -94,8 +94,16 @@ footer {
   padding: 1rem;
 }
 
-footer p {
+footer p, h3 {
   /* Copyright */
   text-align: center;
   padding: 5px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  background-color: #d1af92;
 }

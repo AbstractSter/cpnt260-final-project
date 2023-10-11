@@ -65,3 +65,8 @@ a, a:hover {
 a:hover {
   color: #bfbdbb;
 }
+
+.footer-menu-bar a {
+  text-decoration: none;
+  color: black;
+}
