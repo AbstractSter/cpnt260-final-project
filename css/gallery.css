@@ -20,6 +20,7 @@
 /* Image card hover effect */
 .gallery-image:hover {
   background-color: #d9792b;
+  transition: 1s;
 }
 
 /* Images */

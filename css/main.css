@@ -36,17 +36,18 @@ form {
   color: white;
 }
 
-h1, h3 {
+h1 {
   /* Subheadings on content pages */
   padding: 40px;
   margin: 0;
+  color: #1f4865;
 }
 
 h2 {
   /* Hero Section Heading */
   font-family: 'Inclusive Sans', sans-serif;
   font-size: 40px;
-  color: white;
+  color: #1f4865;
   
   padding: 40px;
   margin: 0;
@@ -56,7 +57,7 @@ h4 {
   /* Hero Section Subheading */
   font-family: 'Inclusive Sans', sans-serif;
   font-size: 20px;
-  color: rgb(226, 223, 223);
+  color:#1f4865;
   
   padding: 10px;
   margin: 0;
@@ -71,6 +72,7 @@ p {
   /* Paragraph Content */
   min-width: 40ch;
   line-height: 1.5;
+  color: #1f4865;
 }
 
 
@@ -94,16 +96,19 @@ footer {
   padding: 1rem;
 }
 
-footer p, h3 {
+footer p {
   /* Copyright */
   text-align: center;
   padding: 5px;
+  color: #1f4865;
 }
 
 footer a {
   text-decoration: none;
+  color: #1f4865;
 }
 
 footer a:hover {
   background-color: #d1af92;
+  transition: 0.5s;
 }
