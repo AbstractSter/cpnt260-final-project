@@ -1,14 +1,23 @@
+/* Gallery image borders */
 div.gallery {
   border: 1px solid #ccc;
 }
 
+/* Gallery image hover */
 div.gallery:hover {
   border: 1px solid #777;
 }
 
+/* Individual images */
 div.gallery img {
   width: 100%;
   height: auto;
+  grid-template-columns: 4;
+}
+
+/* Gallery display */
+div.main-gallery {
+  display: grid;
 }
 
 div.desc {
@@ -23,12 +32,13 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 24.99999%;
+  width: 25%;
+  display: grid;
 }
 
 @media only screen and (max-width: 700px) {
   .responsive {
-    width: 49.99999%;
+    width: 50%;
     margin: 6px 0;
   }
 }
