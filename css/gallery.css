@@ -31,7 +31,7 @@ img {
 }
 
 /* Image card text */
-.gallery-image > p, h3 {
+.gallery-image > p {
   color: black;
   text-align: center;
 }

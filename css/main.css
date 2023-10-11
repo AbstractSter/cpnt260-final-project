@@ -23,9 +23,8 @@ header {
 main {
   /* Main content margins */
   text-align: center;
-  justify-content: center;
 
-  margin: 1rem;
+  margin: auto;
   min-width: 20ch;
   max-width: 100ch;
 }
@@ -53,6 +52,10 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  color: #1f4865;
+}
+
 h4 {
   /* Hero Section Subheading */
   font-family: 'Inclusive Sans', sans-serif;
@@ -73,6 +76,7 @@ p {
   min-width: 40ch;
   line-height: 1.5;
   color: #1f4865;
+  text-align: center;
 }
 
 
