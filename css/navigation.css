@@ -46,7 +46,7 @@ nav .nav-bar-menu-buttons {
 nav li:hover {
   background-color: #d76100;
   transition: 0.5s;
-}
+  }
 
 /* Active Page Status */
 .active {
