@@ -40,13 +40,14 @@ h1 {
   padding: 40px;
   margin: 0;
   color: #1f4865;
+  text-align: center;
 }
 
 h2 {
   /* Hero Section Heading */
   font-family: 'Inclusive Sans', sans-serif;
   font-size: 40px;
-  color: #1f4865;
+  color: white;
   
   padding: 40px;
   margin: 0;
@@ -62,7 +63,7 @@ h4 {
   /* Hero Section Subheading */
   font-family: 'Inclusive Sans', sans-serif;
   font-size: 20px;
-  color:#1f4865;
+  color:white;
   
   padding: 10px;
   margin: 0;
