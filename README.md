@@ -3,9 +3,10 @@ Three-Page Website
 
 ### Author: Sterling Smith
 
-### [GitHub Pages]()
+### [GitHub Pages](https://github.com/AbstractSter/cpnt260-final-project)
 
 ### Above & Beyond
+- Sticky Footer - Line 63 - index.html
 
 ### Attributions
 - Main content used from CPNT260-a4
