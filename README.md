@@ -3,7 +3,7 @@ Three-Page Website
 
 ### Author: Sterling Smith
 
-### [GitHub Pages](https://github.com/AbstractSter/cpnt260-final-project)
+### [GitHub Pages](https://abstractster.github.io/cpnt260-final-project/}
 
 ### Above & Beyond
 - Sticky Footer - Line 63 - index.html
